@@ -4,6 +4,8 @@ setup(
     name='flask_ultime',
     version='0.1.0',
     description='A Flask extension to integrate TailwindCSS and Alpine.js.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='codewithmpia',
     author_email='codewithmpia@gmail.com',
     url='https://github.com/codewithmpia/flask_ultime',
@@ -13,7 +15,7 @@ setup(
         "requests",
     ],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
@@ -23,4 +25,6 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Framework :: Flask',
     ],
+    python_requires='>=3.6',
+    include_package_data=True,
 )

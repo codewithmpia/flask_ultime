@@ -10,7 +10,7 @@ from .utils import create_directories, get_tailwind_binary_path, download_alpine
 from .constants import TAILWIND_BINARY_URLS
 
 
-@click.group('tailwindcss')
+@click.group('ultime')
 def tailwindcss_cli():
     """TailwindCSS commands."""
     pass
